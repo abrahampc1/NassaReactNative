@@ -40,7 +40,6 @@ const Home = () =>{
         loadLast5DaysImages().catch(null);
     }, []);
 
-
     return(
         <View style={style.container}>
             <Header />
@@ -54,6 +53,7 @@ const style = StyleSheet.create({
     container: {
         flex: 1,
         paddingHorizontal: 16,
+        backgroundColor: 'rgba(7, 26, 93, 255)',
     }
 });
 
