@@ -8,7 +8,7 @@ const Header = () => {
                 <Text style= {styles.tittle}>Explore</Text>
             </View>
             <View style = {styles.rightContainer}>
-                <Image source={require('/Proyectos/ReactNativeCurso/ProyectoNasa/assets/nasa_logo.png')} style={styles.image} />
+                <Image source={require('/Proyectos/ReactNative/NassaReactNative/assets/nasa_logo.png')} style={styles.image} />
             </View>
         </View>
     );
